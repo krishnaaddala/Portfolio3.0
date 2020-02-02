@@ -7,18 +7,27 @@ module.exports = function(sequelize, DataTypes) {
           len: [1]
         }
       },
-      description: {
-        type: DataTypes.TEXT,
+      image: {
+        type: DataTypes.STRING,
         allowNull: false,
         validate: {
           len: [1]
         }
+      },
+      gitrepo: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+            len: [1]
+          }
+      },
+      deployedapp:{
+        type: DataTypes.STRING,
+        allowNull: false,
+        validate: {
+            len: [1]
+          }
       }
-    //   ,
-    //   category: {
-    //     type: DataTypes.STRING,
-    //     defaultValue: "Personal"
-    //   }
     });
     return Project;
   };
