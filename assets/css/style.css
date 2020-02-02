@@ -1,0 +1,137 @@
+/* Landing splash page */
+#landing-page{
+    padding: 0 0 0 0;
+}
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #111;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+ }
+ 
+ .demo .large-header {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/demo-bg.jpg");  
+ }
+ 
+ .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #F9F1E9;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+ }
+ 
+ .demo .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+ }
+ 
+ .main-title .thin {
+    font-weight: 200;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .demo .main-title {
+       font-size: 3em;
+    }
+ }
+
+ .portfolio-link{
+     opacity: 0.3;
+     display: inline-block;
+     /* font-display: White; */
+     color: ghostwhite;
+    
+ }
+ .portfolio-link:hover{
+    opacity: 1;
+    color: whitesmoke;
+ }
+
+#navBar-css{
+    padding: 0 0 0 0;
+}
+
+ #navBar-header{
+     background-color: #2f71c1;
+     padding: 10px;
+ }
+
+#main-container-css{
+    padding: 0 0 0 0;
+}
+#about-me{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 30px;
+}
+#skills-tab{
+    text-align: center;
+    margin-left: 26%;
+    margin-top: 80px;
+}
+
+#my-intro-image{
+    padding: 20px;
+    font-display: white;
+}
+.skills-card {
+    font-size: 20px;
+    list-style: none;
+  }
+.skills-card li:before {
+    content: '✓';
+  }
+.card-image{
+   
+    margin-top: -200px;
+    margin-left: 25px;
+    position: relative;
+    bottom: -30px;
+}
+#card-align{
+    margin-top: 100px;
+    text-align: center;
+    width:337px;
+    height:377px;
+}
+
+#portfolio-block{
+    margin-top: 100px;
+}
+#contact-block{
+    margin-top: 100px;
+
+}
+#footer {
+    background: #2c2d31
+  }
+  #back-to-top {
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 22px;
+    background: #008cff;
+    padding: 5px 10px;
+  }
+  
+  #back-to-top:hover {
+    background: #26abae;
+  }
+  
+  .icons {
+    background: rgb(59, 57, 68);
+    padding: 15px;
+    margin-top: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 65px;
+  }
+  
