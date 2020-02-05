@@ -30,6 +30,9 @@ Object.keys(db).forEach(function(modelName) {
   }
 });
 
+// This is the work in progress code for trying to use SEQUALIZE to get the info from DB
+// but due to issues with inserting data into DB I was not able to finish this.
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
