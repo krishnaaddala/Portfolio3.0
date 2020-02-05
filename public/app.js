@@ -4,7 +4,7 @@ $.get("/api/projects", function(err, data){
     }
     else {
         console.log(data);
-        //train schedule HW check that to dynamically build the components
+        //logic to dynamically build the components
 
     }
 })
